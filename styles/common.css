@@ -1,0 +1,71 @@
+/* BUTTON */
+button {
+  background-color: var(--first-color);
+  border-radius: 10px;
+  color: #f3f6fe;
+  border: unset;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 1.3rem 0.7rem;
+}
+
+button:focus {
+  border: unset;
+}
+
+button:hover {
+  background-color: var(--first-color-darker);
+  cursor: pointer;
+  box-shadow: 0px 5px 10px #c8c8c8;
+}
+
+/* TITLE */
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.section-title h2 {
+  font-size: var(--h1-font-size);
+  margin: 0.65rem;
+}
+.section-title span {
+  font-size: var(--small-font-size);
+}
+
+/* SECTION CONTAINER */
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+}
+.section-item {
+  flex: 1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-container {
+    flex-direction: row;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
